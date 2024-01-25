@@ -12,7 +12,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
       <Image className={styles.projectCard_image} width={500} height={500} src={project.image} alt={project.name} />
       <div className={styles.projectCard_description}>
         <div className={styles.projectCard_technologyContainer}>
-          {project.technologies.map(e => (
+          {project.technologies?.map(e => (
             <span className={styles.projectCard_technology} key={e.technology.id}><Image width={20} height={20} src={e.technology.icon} alt={e.technology.name}></Image> {e.technology.name}</span>
           ))}
         </div>
