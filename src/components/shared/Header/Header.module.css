@@ -1,0 +1,19 @@
+.container {
+  background-color: black;
+  display: grid;
+  place-content: center;
+  padding: 20px;
+}
+
+.navbar li {
+  font-size: large;
+  display: inline;
+}
+
+.navbar li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: white;
+}

@@ -1,0 +1,8 @@
+.footer {
+  display: grid;
+  place-content: center;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+}
