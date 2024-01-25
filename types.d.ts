@@ -5,17 +5,23 @@ type CertificacionType = {
 }
 
 type Technology = {
-  id: int;
+  id: number;
   name: string;
-  logo: string;
+  icon: string;
+}
+
+type TechnologiesOnProjects = {
+  technologyId: number;
+  projectId: number;
+  technology: Technology;
 }
 
 type ProjectType = {
-  id: int;
+  id: number;
   name: string;
   description: string;
   image: string;
-  technologies: Technology[];
-  githubUrl: string;
-  siteUrl: string;
+  technologies: TechnologiesOnProjects[];
+  githubUrl: string | null;
+  siteUrl: string | null;
 }
