@@ -1,0 +1,39 @@
+.socialMedia a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socialMedia__linkGithub {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.socialMedia__linkGithub:hover {
+  background-color: darkgray
+}
+
+.socialMedia__linkLinkedin {
+  padding: 10px;
+  background-color: #0A66C2;
+  color: white;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.socialMedia__linkLinkedin:hover {
+  background-color: cornflowerblue;
+}
+
+.socialMedia__linkHackerrank {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.socialMedia__linkHackerrank:hover {
+  background-color: gray;
+}
