@@ -12,17 +12,12 @@ export const metadata: Metadata = {
   description: "Portfolio of projects with Python and Javascript",
 };
 
-interface PageProps {
-  children: React.ReactNode;
-  projectsList: React.ReactNode;
-}
-
-export default function RootLayout(props: PageProps) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        {props.children}
+        {children}
         <Footer />
       </body>
     </html>
