@@ -29,7 +29,7 @@
   .container {
     display: grid;
     grid-template-columns: 100%;
-    padding: 80px;
+    padding: 40px;
   }
 
   .heroImage img {
