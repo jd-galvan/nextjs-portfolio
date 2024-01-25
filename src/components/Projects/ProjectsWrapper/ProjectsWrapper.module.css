@@ -9,3 +9,12 @@
   font-size: 60px;
   text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+  .projectsContainer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
