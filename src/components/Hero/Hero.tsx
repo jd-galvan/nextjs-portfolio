@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.heroText}>
         <h1 className={styles.heroText__title}>Hey, this is José Daniel</h1>
         <br />
-        <p className={styles.heroText__description}><b>Technical Leader</b>, <b>Full Stack Developer</b>, <b>IT Teacher</b> and <b>AI Enthusiast</b>, constantly exploring new tools that enable the design and development of software focused on user needs.
+        <p className={styles.heroText__description}><b>Technical Leader</b>, <b>Full Stack Developer</b>, <b>IT Instructor</b>, and <b>AI Enthusiast</b>, constantly exploring new tools that enable the design and development of software focused on user needs.
           <br /><br />
           Welcome to my <b>Python</b> and <b>Javascript</b> portfolio!
         </p>
