@@ -11,7 +11,7 @@ export const Hero = () => {
         <br />
         <p className={styles.heroText__description}><b>Technical Leader</b>, <b>Full Stack Developer</b>, <b>IT Instructor</b>, and <b>AI Enthusiast</b>, constantly exploring new tools that enable the design and development of software focused on user needs.
           <br /><br />
-          Welcome to my <b>Python</b> and <b>Javascript</b> portfolio!
+          Welcome to my <b>AI</b> and <b>XR</b> portfolio!
         </p>
         <br />
         <br />
